@@ -12,9 +12,9 @@ categories = [ "wasm", "no-std" ]
 [lib]
 path = "src/lib.rs"
 
-[[bin]]
-name = "swat"
-path = "src/main.rs"
+# [[bin]]
+# name = "swat"
+# path = "src/main.rs"
 
 [dependencies]
 log = "0.4"

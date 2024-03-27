@@ -1,0 +1,23 @@
+[package]
+name = "swat"
+version = "1.0.0"
+edition = "2021"
+authors = [ "Nathan ROYER <nathan.royer.pro@gmail.com>" ]
+description = "Simple WebAssembly Transpiler"
+license = "MIT"
+keywords = [ "wasm", "no_std", "aarch64" ]
+repository = "https://github.com/NathanRoyer/swat"
+categories = [ "wasm", "no-std" ]
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "swat"
+path = "src/main.rs"
+
+[dependencies]
+log = "0.4"
+
+[features]
+default = []

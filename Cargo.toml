@@ -1,6 +1,6 @@
 [package]
 name = "swat"
-version = "1.0.0"
+version = "0.1.0"
 edition = "2021"
 authors = [ "Nathan ROYER <nathan.royer.pro@gmail.com>" ]
 description = "Simple WebAssembly Transpiler"
